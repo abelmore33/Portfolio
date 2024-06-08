@@ -9,13 +9,13 @@ import "./App.css";
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/resume" element={<Resume />} />
       </Routes>
-    </React.Fragment>
+    </>
   );
 }
 

@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/Aaron Belmore Resume (1)-1-1.png";
 
 const Home = () => {
   return (
@@ -34,6 +35,11 @@ const Home = () => {
       <div className="projects">
         <h2>Projects</h2>
       </div>
+      <button>
+        <a href={resume} download>
+          Download Resume
+        </a>
+      </button>
     </div>
   );
 };
