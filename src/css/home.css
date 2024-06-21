@@ -66,12 +66,16 @@
   color: #f4f4f4;
   font-size: 2.5rem;
   text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .projects h4 {
   color: #f4f4f4;
   font-size: 1.8rem;
   text-align: center;
+  margin-bottom: 20px;
+  padding: 20px;
 }
 
 .projects p,
@@ -94,11 +98,24 @@ li {
   text-align: center;
   background-color: #2a3d45;
   width: 850px;
-  height: 650px;
+  height: 700px;
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
+}
+
+.project-text {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.project-text-show {
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: 700;
 }
 
 .project-img {
@@ -106,6 +123,7 @@ li {
   height: 175px;
   object-fit: cover;
   border-radius: 5px;
+  margin-bottom: 15px;
 }
 
 .project-img:hover {
@@ -117,6 +135,7 @@ li {
   align-items: center;
   gap: 20px;
   list-style: none;
+  margin-top: 15px;
 }
 
 .skills-img {

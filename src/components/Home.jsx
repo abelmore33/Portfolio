@@ -9,7 +9,7 @@ import project4 from "../assets/Screenshot 2024-06-21 160256.png";
 import "../css/home.css";
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <div className="main-container">
         <div className="main-image">
           <img src={image} alt="Aaron Belmore" />
@@ -64,7 +64,7 @@ const Home = () => {
             >
               <img className="project-img" src={project1} alt="" />
             </a>
-            <p>
+            <p className="project-text">
               In this project, I developed a CRUD API for managing projects and
               actions using Node.js and Express. Key tasks included:
             </p>
@@ -88,7 +88,9 @@ const Home = () => {
                 reliability.
               </li>
             </ul>
-            <p>This project showcases my skills in:</p>
+            <p className="project-text-show">
+              This project showcases my skills in:
+            </p>
             <ul className="skills">
               <li>
                 <img
@@ -123,7 +125,7 @@ const Home = () => {
             >
               <img className="project-img" src={project2} alt="" />
             </a>
-            <p>
+            <p className="project-text">
               In this project, I built a movie application using React Router to
               demonstrate client-side routing. Key tasks included:
             </p>
@@ -145,7 +147,9 @@ const Home = () => {
                 links.
               </li>
             </ul>
-            <p>This project showcases my skills in:</p>
+            <p className="project-text-show">
+              This project showcases my skills in:
+            </p>
             <ul className="skills">
               <li>
                 <img
@@ -180,7 +184,7 @@ const Home = () => {
               <img src={project3} alt="" className="project-img" />
             </a>
 
-            <p>
+            <p className="project-text">
               In this project, I created an authentication system and
               implemented testing for a Node.js application. Key tasks included:
             </p>
@@ -203,7 +207,9 @@ const Home = () => {
                 reliability.
               </li>
             </ul>
-            <p>This project showcases my skills in:</p>
+            <p className="project-text-show">
+              This project showcases my skills in:
+            </p>
             <ul className="skills">
               <li>
                 <img
@@ -237,7 +243,7 @@ const Home = () => {
             >
               <img src={project4} alt="" className="project-img" />
             </a>
-            <p>
+            <p className="project-text">
               In this project, I delivered a functional and aesthetically
               accurate landing page within the specified guidelines.
             </p>
@@ -254,10 +260,11 @@ const Home = () => {
               <li>
                 Applied the React Router library to navigate between pages.
               </li>
-              <li>Integrate the Auth0 microservice into the project.</li>
-              <li>Added login and logout buttons that redirect to Auth0.</li>
+              <li>Integrated the Auth0 microservice into the project.</li>
             </ul>
-            <p>This project showcases my skills in:</p>
+            <p className="project-text-show">
+              This project showcases my skills in:
+            </p>
             <ul className="skills">
               <li>
                 <img
