@@ -11,8 +11,9 @@ const Home = () => {
         <p className="cta-subtext">
           Hi, I'm Aaron Belmore, a passionate full stack developer. I've always
           had a deep interest in web development but was initially afraid to
-          take the leap. Recently, I completed a full stack coding bootcamp, now
-          I hope to turn my my passion into a career I love.
+          take the leap. Recently, I completed the full stack web dev program at
+          Bloomtech Institute of Technology, now I hope to turn my my passion
+          into a career I love.
         </p>
         <div className="icons">
           <a
@@ -32,12 +33,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="projects">
-        <h2>Projects</h2>
-      </div>
       <button>
-        <a href={resume} download>
-          Download Resume
+        <a href={resume} target="_blank" rel="noopener noreferrer">
+          View Resume
         </a>
       </button>
     </div>
