@@ -98,11 +98,30 @@ li {
   padding: 15px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
 }
 
 .project-img {
-  width: 200px;
+  width: 300px;
   height: 175px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project-img:hover {
+  opacity: 0.8;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.skills-img {
+  width: 75px;
+  height: 100%;
   object-fit: cover;
   border-radius: 5px;
 }

@@ -127,10 +127,6 @@ const Home = () => {
               In this project, I built a movie application using React Router to
               demonstrate client-side routing. Key tasks included:
             </p>
-            <p>
-              In this project, I built a movie application using React Router to
-              demonstrate client-side routing. Key tasks included:
-            </p>
             <ul>
               <li>Setting up routes with React Router for different views.</li>
               <li>
