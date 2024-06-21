@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  background-color: #2a3d45;
+  background-color: #1c1c1e;
 }
 
 .logo h1 {
@@ -26,22 +26,31 @@
 
 .nav-links:hover {
   color: #1c1c1e;
-  /* change color underrlline */
-  text-decoration-color: #f4f4f4;
-  text-decoration: underline;
 }
 
 .nav-btn {
-  background-color: #f4f4f4;
-  color: #2a3d45;
+  background-color: #8fbc94;
+  font-weight: bold;
+  color: #f4f4f4;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   cursor: pointer;
 }
 
 .nav-btn:hover {
   background-color: #1c1c1e;
   color: #f4f4f4;
+}
+
+.project-img {
+  width: 18%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.project-img:hover {
+  opacity: 0.8;
 }
