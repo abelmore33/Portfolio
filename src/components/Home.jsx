@@ -5,9 +5,7 @@ const Home = () => {
   return (
     <div>
       <div className="cta">
-        <h2 className="cta-text">
-          Hello, I'm Aaron Belmore | Full Stack Developer
-        </h2>
+        <h2 className="cta-text"></h2>
         <p className="cta-subtext">
           Hi, I'm Aaron Belmore, a passionate full stack developer. I've always
           had a deep interest in web development but was initially afraid to
