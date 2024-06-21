@@ -4,6 +4,7 @@ import image from "../assets/headshot.png";
 import project1 from "../assets/Screenshot 2024-06-21 135923.png";
 import project2 from "../assets/Screenshot 2024-06-21 144312.png";
 import project3 from "../assets/Screenshot 2024-06-21 150145.png";
+import project4 from "../assets/Screenshot 2024-06-21 160256.png";
 
 import "../css/home.css";
 const Home = () => {
@@ -232,8 +233,65 @@ const Home = () => {
             </ul>
           </div>
           <div className="project">
-            <h4>Project 4</h4>
-            <p>Description</p>
+            <h4>asylum-rg-fe-starter</h4>
+            <a
+              href="https://github.com/abelmore33/asylum-rg-fe-starter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={project4} alt="" className="project-img" />
+            </a>
+            <p>
+              In this project, I delivered a functional and aesthetically
+              accurate landing page within the specified guidelines.
+            </p>
+            <ul>
+              <li>
+                Setting up and configuring the React environment with NPM
+                scripts.
+              </li>
+              <li>Integrate this frontend application with an API.</li>
+              <li>
+                Reworked the GraphWrapper.jsx file and data visualizations to
+                use an API instead of test_data.json.
+              </li>
+              <li>
+                Applied the React Router library to navigate between pages.
+              </li>
+              <li>Integrate the Auth0 microservice into the project.</li>
+              <li>Added login and logout buttons that redirect to Auth0.</li>
+            </ul>
+            <p>This project showcases my skills in:</p>
+            <ul className="skills">
+              <li>
+                <img
+                  className="skills-img"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+                  alt="react"
+                />
+              </li>
+              <li>
+                <img
+                  className="skills-img"
+                  src="https://static-00.iconduck.com/assets.00/react-router-icon-2048x1116-jfeevj0l.png"
+                  alt="react-router"
+                />
+              </li>
+              <li>
+                <img
+                  className="skills-img"
+                  src="https://static-00.iconduck.com/assets.00/auth0-icon-458x512-8spyi0ve.png"
+                  alt="auth0"
+                />
+              </li>
+              <li>
+                <img
+                  className="skills-img"
+                  src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png"
+                  alt="css"
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </div>
