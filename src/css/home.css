@@ -60,6 +60,7 @@
 
 .projects-container {
   background-color: #1c1c1e;
+  padding-bottom: 40px;
 }
 
 .projects-container h3 {
@@ -103,6 +104,13 @@ li {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.project:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+  border: 4px solid #8fbc94;
+  transform: scale(1.02);
 }
 
 .project-text {
