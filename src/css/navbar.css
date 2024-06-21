@@ -54,3 +54,17 @@
 .project-img:hover {
   opacity: 0.8;
 }
+
+.skills {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.skills-img {
+  width: 75px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
