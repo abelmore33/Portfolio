@@ -49,3 +49,17 @@
   background-color: #eaeaea;
   color: #8fbc94;
 }
+
+@media (max-width: 1700px) {
+  .logo h1 {
+    font-size: 1.6rem;
+  }
+  .nav-links {
+    font-size: 1.5rem;
+  }
+
+  .nav-btn {
+    font-size: 1.5rem;
+    margin-right: 60px;
+  }
+}

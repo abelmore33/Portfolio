@@ -69,7 +69,7 @@ const Home = () => {
               actions using Node.js and Express. Key tasks included:
             </p>
 
-            <ul>
+            <ul className="project-list">
               <li>
                 Setting up and configuring the Node.js environment with NPM
                 scripts.
@@ -129,7 +129,7 @@ const Home = () => {
               In this project, I built a movie application using React Router to
               demonstrate client-side routing. Key tasks included:
             </p>
-            <ul>
+            <ul className="project-list">
               <li>Setting up routes with React Router for different views.</li>
               <li>
                 Implementing navigation between a list of movies and detailed
@@ -188,7 +188,7 @@ const Home = () => {
               In this project, I created an authentication system and
               implemented testing for a Node.js application. Key tasks included:
             </p>
-            <ul>
+            <ul className="project-list">
               <li>
                 Setting up and configuring the Node.js environment with NPM
                 scripts.
@@ -247,7 +247,7 @@ const Home = () => {
               In this project, I delivered a functional and aesthetically
               accurate landing page within the specified guidelines.
             </p>
-            <ul>
+            <ul className="project-list">
               <li>
                 Setting up and configuring the React environment with NPM
                 scripts.
