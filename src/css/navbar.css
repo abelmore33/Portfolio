@@ -50,7 +50,34 @@
   color: #8fbc94;
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 444px) {
+  .logo h1 {
+    font-size: 1rem;
+  }
+
+  li .closed {
+    display: none;
+  }
+
+  li .active {
+    display: block;
+    width: 100%;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+    background-color: #1c1c1e;
+    padding: 20px;
+  }
+}
+
+/* @media (max-width: 1700px) {
   .logo h1 {
     font-size: 1.6rem;
   }
@@ -62,4 +89,4 @@
     font-size: 1.5rem;
     margin-right: 60px;
   }
-}
+} */

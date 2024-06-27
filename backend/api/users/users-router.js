@@ -1,5 +1,6 @@
 const router = require("express").Router();
 const Users = require("./users-model");
+const { validateUserEmail, validateUserInput } = require("./users-middleware");
 
 router.get("/", (req, res) => {
   Users.getAllUsers().then((users) => {
@@ -21,7 +22,7 @@ router.get("/:id/message", (req, res) => {
   });
 });
 
-router.post("/", (req, res) => {
+router.post("/", validateUserInput, (req, res) => {
   const user = req.body;
   Users.addUser(user).then((user) => {
     res.status(201).json(user);
