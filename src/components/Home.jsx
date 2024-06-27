@@ -64,6 +64,8 @@ const Home = () => {
             >
               <img className="project-img" src={project1} alt="" />
             </a>
+            <p>Click image to view project</p>
+
             <p className="project-text">
               In this project, I developed a CRUD API for managing projects and
               actions using Node.js and Express. Key tasks included:
@@ -125,6 +127,7 @@ const Home = () => {
             >
               <img className="project-img" src={project2} alt="" />
             </a>
+            <p>Click image to view project</p>
             <p className="project-text">
               In this project, I built a movie application using React Router to
               demonstrate client-side routing. Key tasks included:
@@ -183,6 +186,7 @@ const Home = () => {
             >
               <img src={project3} alt="" className="project-img" />
             </a>
+            <p>Click image to view project</p>
 
             <p className="project-text">
               In this project, I created an authentication system and
@@ -243,6 +247,8 @@ const Home = () => {
             >
               <img src={project4} alt="" className="project-img" />
             </a>
+            <p>Click image to view project</p>
+
             <p className="project-text">
               In this project, I delivered a functional and aesthetically
               accurate landing page within the specified guidelines.
