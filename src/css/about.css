@@ -3,7 +3,7 @@
   width: 100%;
   height: 100vh;
 }
-img {
+.about-container img {
   width: 600px;
   height: 600px;
   object-fit: cover;

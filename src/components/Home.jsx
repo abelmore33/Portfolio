@@ -64,7 +64,7 @@ const Home = () => {
             >
               <img className="project-img" src={project1} alt="" />
             </a>
-            <p>Click image to view project</p>
+            <p className="proj-text">Click image to view project</p>
 
             <p className="project-text">
               In this project, I developed a CRUD API for managing projects and
@@ -127,10 +127,10 @@ const Home = () => {
             >
               <img className="project-img" src={project2} alt="" />
             </a>
-            <p>Click image to view project</p>
+            <p className="proj-text">Click image to view project</p>
             <p className="project-text">
-              In this project, I built a movie application using React Router to
-              demonstrate client-side routing. Key tasks included:
+              In this project, I built a movie application <br /> using React
+              Router to demonstrate client-side routing. Key tasks included:
             </p>
             <ul className="project-list">
               <li>Setting up routes with React Router for different views.</li>
@@ -186,7 +186,7 @@ const Home = () => {
             >
               <img src={project3} alt="" className="project-img" />
             </a>
-            <p>Click image to view project</p>
+            <p className="proj-text">Click image to view project</p>
 
             <p className="project-text">
               In this project, I created an authentication system and
@@ -247,10 +247,10 @@ const Home = () => {
             >
               <img src={project4} alt="" className="project-img" />
             </a>
-            <p>Click image to view project</p>
+            <p className="proj-text">Click image to view project</p>
 
             <p className="project-text">
-              In this project, I delivered a functional and aesthetically
+              In this project, I delivered a functional <br /> and aesthetically
               accurate landing page within the specified guidelines.
             </p>
             <ul className="project-list">
