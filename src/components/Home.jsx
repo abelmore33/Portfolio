@@ -239,7 +239,7 @@ const Home = () => {
             </ul>
           </div>
           <div className="project">
-            <h4>asylum-rg-fe-starter</h4>
+            <h4>Asylum-rg-fe-starter</h4>
             <a
               href="https://github.com/abelmore33/asylum-rg-fe-starter"
               target="_blank"
